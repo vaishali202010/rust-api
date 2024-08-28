@@ -1,0 +1,9 @@
+[package]
+name = "rust_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"  # Check for the latest version on crates.io
+tokio = { version = "1", features = ["full"] }
+
